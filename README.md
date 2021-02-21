@@ -4,9 +4,10 @@ Small Projects which I made while learning Web Development
 
 <h3>Project 1 - A Fancy Button</h3>
 Demo: 
-<a href="https://harshitbhat.github.io/Small-Projects/1-fancyButton/021.fancyButton.html">
+<a target="_blank" href="https://harshitbhat.github.io/Small-Projects/1-fancyButton/021.fancyButton.html">
     Fancy Button
 </a>
+<br>
 <img src='https://github.com/harshitbhat/Small-Projects/blob/master/screenshots/project1.gif'/>
 
 <a href="https://harshitbhat.github.io/Small-Projects/2-pricePanel/026.pricePanel.html">
