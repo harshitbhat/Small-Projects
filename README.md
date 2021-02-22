@@ -64,4 +64,4 @@ Small Projects which I made while learning Web Development
         Background Generator
     </a>
 </p>
-<img src='https://github.com/harshitbhat/Small-Projects/blob/master/screenshots/project8.gif /'>
+<img src='https://github.com/harshitbhat/Small-Projects/blob/master/screenshots/project8.gif' />
