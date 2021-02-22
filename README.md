@@ -57,3 +57,11 @@ Small Projects which I made while learning Web Development
     </a>
 </p>
 <img src='https://github.com/harshitbhat/Small-Projects/blob/master/screenshots/project7.gif' />
+
+<h3>Project 8 - Background Generator </h3>
+<p>Demo : 
+    <a href="https://harshitbhat.github.io/Small-Projects/8-backGroundGenerator/index.html">
+        Background Generator
+    </a>
+</p>
+<img src='https://github.com/harshitbhat/Small-Projects/blob/master/screenshots/project8.gif /'>
