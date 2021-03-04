@@ -69,7 +69,7 @@ Small Projects which I made while learning Web Development
 <h3>Project 9 - Bank Account Operations </h3>
 <p>Demo : 
     <a href="https://harshitbhat.github.io/Small-Projects/09-bankAccountOps/index.html">
-        Background Generator
+        Bank Account Operations
     </a>
 </p>
 <img src='https://github.com/harshitbhat/Small-Projects/blob/master/screenshots/project9.gif' />
