@@ -76,7 +76,8 @@ Small Projects which I made while learning Web Development
 
 <h3>Project 10 - Keyboard Drums </h3>
 <p>
-    <a href="https://github.com/harshitbhat/Small-Projects/blob/master/screenshots/project10.gif">
+    <a href="https://harshitbhat.github.io/Small-Projects/10-jsDrumKit/index.html">
         Keyboard Drums
     </a>
 </p>
+<img src='https://github.com/harshitbhat/Small-Projects/blob/master/screenshots/project10.gif' />
