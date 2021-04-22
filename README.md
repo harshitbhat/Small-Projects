@@ -75,9 +75,17 @@ Small Projects which I made while learning Web Development
 <img src='https://github.com/harshitbhat/Small-Projects/blob/master/screenshots/project9.gif' />
 
 <h3>Project 10 - Keyboard Drums </h3>
-<p>
+<p>Demo : 
     <a href="https://harshitbhat.github.io/Small-Projects/10-jsDrumKit/index.html">
         Keyboard Drums
     </a>
 </p>
 <img src='https://github.com/harshitbhat/Small-Projects/blob/master/screenshots/project10.gif' />
+
+<h3>Project 11 - Infinity Image Scroller</h3>
+<p>Demo :
+    <a href="https://harshitbhat.github.io/Small-Projects/11-infinityScroll/index.html">
+        Infinity Image Scroller
+    </a>
+</p>
+<img src="https://github.com/harshitbhat/Small-Projects/blob/master/screenshots/project11.gif" />
