@@ -73,3 +73,10 @@ Small Projects which I made while learning Web Development
     </a>
 </p>
 <img src='https://github.com/harshitbhat/Small-Projects/blob/master/screenshots/project9.gif' />
+
+<h3>Project 10 - Keyboard Drums </h3>
+<p>
+    <a href="https://github.com/harshitbhat/Small-Projects/blob/master/screenshots/project10.gif">
+        Keyboard Drums
+    </a>
+</p>
