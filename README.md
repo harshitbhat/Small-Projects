@@ -89,3 +89,11 @@ Small Projects which I made while learning Web Development
     </a>
 </p>
 <img src="https://github.com/harshitbhat/Small-Projects/blob/master/screenshots/project11.gif" />
+
+<h3>Project 12 - Picture in Picture</h3>
+<p>Demo:
+    <a href="https://harshitbhat.github.io/Small-Projects/12-pictureInPicture/index.html">
+        Picture in Picture
+    </a>
+</p>
+<img src="https://github.com/harshitbhat/Small-Projects/blob/master/screenshots/project12.gif" />
