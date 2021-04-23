@@ -1,7 +1,8 @@
 'use strict';
 
 const videoElement = document.querySelector('#video');
-const button = document.querySelector('#btn');
+const button = document.querySelector('#btn-start');
+const buttonSelect = document.querySelector('#btn-select');
 
 // Prompt to select media MediaStream, pass to video element and then play
 async function selecMediaStream() {
@@ -29,4 +30,8 @@ button.addEventListener('click', async () => {
 });
 
 // On Load
-selecMediaStream();
+//selecMediaStream();
+
+buttonSelect.addEventListener('click', () => {
+  selecMediaStream();
+});
