@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <header>
+      <h1 id="title">Form</h1>
+      <p id="description">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut, labore
+        consectetur minima repudiandae, debitis aperiam laudantium iusto impedit
+        perspiciatis, sequi illo quam laborum tenetur velit cum voluptatibus nam
+        voluptates iste?
+      </p>
+    </header>
+    <main>
+      <form action="" id="survey-form">
+        <div class="name">
+          <label for="name" id="name-label">Name: </label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Enter your name"
+            required
+          />
+        </div>
+        <div class="email">
+          <label for="email" id="email-label">Email: </label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter your email"
+            required
+          />
+        </div>
+        <div class="age">
+          <label for="age" id="number-label">Age: </label>
+          <input
+            type="number"
+            name="age"
+            id="number"
+            min="18"
+            max="60"
+            placeholder="age"
+          />
+        </div>
+
+        <div class="sex">
+          <label>Sex: </label>
+          <input type="radio" name="sex" id="male" value="male" /><label
+            for="male"
+            >Male</label
+          >
+          <input type="radio" name="sex" id="female" value="female" /><label
+            for="female"
+            >Female</label
+          >
+          <input type="radio" name="sex" id="other" value="other" /><label
+            for="other"
+            >Other</label
+          >
+        </div>
+
+        <div class="id-card">
+          <label for="dropdown">Identity Card: </label>
+          <select name="id-card" id="dropdown">
+            <option value="aadhar">Aadhar Card</option>
+            <option value="pan">Pan Card</option>
+            <option value="dl">Driving Licence</option>
+            <option value="passport">Passport</option>
+          </select>
+        </div>
+
+        <div class="hobbies">
+          <label for="">Hobbies: </label>
+          <input
+            type="checkbox"
+            name="singing"
+            id="sing"
+            value="singing"
+          /><label for="sing">singing</label>
+          <input
+            type="checkbox"
+            name="dancing"
+            id="dance"
+            value="dancing"
+          /><label for="dance">dancing</label>
+        </div>
+        <div class="reviews">
+          <p>Your thoughts:</p>
+          <textarea name="reviews" id="reviews" cols="30" rows="10"></textarea>
+        </div>
+
+        <button type="submit" id="submit">Submit</button>
+      </form>
+    </main>
+  </body>
+</html>
