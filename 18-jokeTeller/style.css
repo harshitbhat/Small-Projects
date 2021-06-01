@@ -46,9 +46,13 @@ button:disabled {
   filter: brightness(30%);
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 800px) {
   .container {
     background-size: cover;
     background-position: center center;
+  }
+  img {
+    width: 80%;
+    height: 50%;
   }
 }
