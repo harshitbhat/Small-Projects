@@ -1,0 +1,126 @@
+/* From: http://www.styleseven.com/ */
+@font-face {
+  font-family: 'Digital-7';
+  src: url('digital-7.ttf');
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: linear-gradient(to right, #e63946, #f1faee, #a8dadc, #457b9d);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator {
+  background: #1d3557;
+  width: 400px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px 10px rgba(0, 0, 0, 0.6);
+}
+
+.calculator-display {
+  background: #000;
+  color: #ffff3f;
+  margin: 0;
+  border-radius: 10px 10px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.calculator-display h1 {
+  margin: 0;
+  padding: 25px;
+  font-size: 56px;
+  font-family: 'Digital-7', 'Lucida Console', sans-serif;
+  font-weight: 100;
+  overflow-x: auto;
+}
+
+/* Scrollbar */
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.calculator-buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+button {
+  min-height: 50px;
+  font-size: 20px;
+  font-weight: 100;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background: #83c5be;
+  color: #1d3557;
+}
+
+button:hover {
+  filter: brightness(125%);
+}
+
+button:focus {
+  outline: none;
+}
+
+button:active {
+  transform: translateY(1px);
+}
+
+.operator {
+  background: #335c67;
+  color: #f4f3ee;
+  font-size: 30px;
+}
+
+.clear {
+  background: #a4161a;
+  color: #f4f3ee;
+}
+
+.clear:hover {
+  filter: brightness(75%);
+}
+
+.equal-sign {
+  background: #fb8b24;
+}
+
+.equal-sign {
+  grid-column: -2;
+  grid-row: 2 / span 4;
+}
+
+@media screen and (max-width: 600px) {
+  .calculator {
+    width: 95%;
+  }
+}
