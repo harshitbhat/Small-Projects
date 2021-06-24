@@ -99,7 +99,7 @@ function restoreCanvas() {
     context.moveTo(drawnArray[i - 1].x, drawnArray[i - 1].y);
     context.lineWidth = drawnArray[i].size;
     context.lineCap = 'round';
-    if (drawnArray[i].eraser) {
+    if (drawnArray[i].erase) {
       context.strokeStyle = bucketColor;
     } else {
       context.strokeStyle = drawnArray[i].color;
