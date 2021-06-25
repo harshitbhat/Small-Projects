@@ -58,9 +58,6 @@ eraser.addEventListener('click', () => {
   currentSize = 50;
 });
 
-// Setting eraser color to background color
-function setEraserBackground() {}
-
 // Switch back to Brush
 function switchToBrush() {
   isEraser = false;
@@ -142,6 +139,17 @@ canvas.addEventListener('mousedown', (event) => {
   context.strokeStyle = currentColor;
 });
 
+// Methods for touch
+canvas.addEventListener('pointerdown', (event) => {
+  isMouseDown = true;
+  const currentPosition = getMousePosition(event);
+  context.moveTo(currentPosition.x, currentPosition.y);
+  context.beginPath();
+  context.lineWidth = currentSize;
+  context.lineCap = 'round';
+  context.strokeStyle = currentColor;
+});
+
 // Mouse Move
 canvas.addEventListener('mousemove', (event) => {
   if (isMouseDown) {
@@ -160,8 +168,32 @@ canvas.addEventListener('mousemove', (event) => {
   }
 });
 
+// Pointer Move
+canvas.addEventListener('pointermove', (event) => {
+  if (pointerdown) {
+    const currentPosition = getMousePosition(event);
+    context.lineTo(currentPosition.x, currentPosition.y);
+    context.stroke();
+    storeDrawn(
+      currentPosition.x,
+      currentPosition.y,
+      currentSize,
+      currentColor,
+      isEraser
+    );
+  } else {
+    storeDrawn(undefined);
+  }
+});
+
 // Mouse Up
 canvas.addEventListener('mouseup', () => {
+  isMouseDown = false;
+  console.log('mouse is unclicked');
+});
+
+// Touch move
+canvas.addEventListener('pointerup', () => {
   isMouseDown = false;
   console.log('mouse is unclicked');
 });
