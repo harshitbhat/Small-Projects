@@ -48,6 +48,6 @@ button:active {
 
 button:disabled {
   background: linear-gradient(to bottom, #ff8fa3, #ffb3c1);
-  color: rgba(0, 0, 0, 0.8);
+  color: rgba(255, 255, 255, 0.5);
   cursor: not-allowed;
 }
