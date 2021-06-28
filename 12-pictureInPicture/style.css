@@ -45,3 +45,9 @@ button:active {
   transform: translateY(3px);
   box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.3);
 }
+
+button:disabled {
+  background: linear-gradient(to bottom, #ff8fa3, #ffb3c1);
+  color: rgba(0, 0, 0, 0.8);
+  cursor: not-allowed;
+}

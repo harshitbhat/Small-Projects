@@ -12,6 +12,7 @@ async function selecMediaStream() {
     videoElement.onloadedmetadata = () => {
       videoElement.play();
     };
+    button.disabled = false;
   } catch (e) {
     // Catch Error
     console.log('error: ', e);
